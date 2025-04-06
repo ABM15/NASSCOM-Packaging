@@ -252,20 +252,37 @@ The resulting geometry now makes sense. The name of the second rectangle needs t
 
 #### 2 Add the die attach material and bond pads
 
-The next step is to create the die attach material. However, in the geometry, the substrate and the die are adjacent so far. The substrate position in the vertical axis needs to be lowered by the thickness of the die attach, typically 0.1 mm.
+The next step is to create the die attach material. However, in the geometry, the substrate and the die are adjacent so far, which is not totally correct. The substrate position in the vertical axis needs to be lowered by the thickness of the die attach, typically 0.1 mm. We do this in the Properties option of the conextual menu.
 
 ![da1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20194928.png)
+
+Now there is a space between the substrate and the die where to add the die attach material layer:
+
 ![da2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20194947.png)
+
+We create a new rectangle of the same dimensions of the die ( 3mm x 3mm), centered at the origin of coordinates (0,0,0), as the die, but with a negative thickness of 0.1mm:
+
 ![da3](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20195154.png)
 ![da4](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20195353.png)
+
+The material of the new rectangle is changed to "modified_epoxy" and the name to "DieAttach"
+
 ![da5](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20195517.png)
 ![da6](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20195526.png)
+
+The next step is to create the die bond pad. We define a rectangle of dimensions 0.2 mm x 0.2 mm and about 0.5mm into the Y axis. Since it needs to be placed on top of the die, its height is Z=0.2mm.
+
 ![da7](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20195716.png)
-![da8](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20195844.png)
 ![da9](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20195858.png)
 ![da10](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20195957.png)
 ![da11](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200052.png)
+
+The next step is to create the substrate bond pad. We define a new rectangle of the same dimensions (0.2 mm x 0.2 mm) but placed on the substrate, that is, Z=-0.1mm.
+
 ![da12](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200148.png)
+
+Both bond pad rectangles are renamed:
+
 ![da13](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200355.png)
 ![da14](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200425.png)
 
