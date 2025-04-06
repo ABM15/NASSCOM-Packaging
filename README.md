@@ -14,9 +14,8 @@ The objective of the lab is to model a FlipChip BGA package and perform a therma
 1) Start the Ansys Electronics Desktop Student software
 2) Set up a FlipChip BGA package
 3) Thermal definitions and material power sources
-5) Define the mesh
-6) Perform the thermal simulation
-7) Explore results
+4) Meshing and running the thermal analysis
+5) Explore results
 
 #### 1 Start the Ansys Electronics Desktop Student software
 
@@ -161,6 +160,32 @@ In the "General" tab of the "Mesh Region" the box "Enable Mesh Function" needs t
 The resulting mesh is shown below. The new mesh region "MeshRegion1" is displayed in the Mesh tree element.
 
 ![asmr4](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20183315.png)
+
+When generating the mesh again, the software is not capable of meshing "MeshRegion1" so we delete and stay with the previous mesh.
+
+To proceed with the simulation we click on "Analyze All":
+
+![analyzeall](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20185801.png)
+
+#### 5  Exploring the results
+
+To observe the results we select the whole package in the viewer, right-click on it and in the route "Plot Fields --> Temperature --> Temperature"
+
+![plotfieldtemp1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20190026.png)
+
+In the "Create Field Plot" Box we tick the boxes "Specify Name", "Specify Folder" and "Plot on surface only"
+
+![plotfieldtemp2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20190221.png)
+
+Clicking on the "Surface Smoothing" button, we activate Gaussian smoothing:
+
+![gaussiansmoothing](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20190239.png)
+
+We can now see the temperature plot. As expected the hottest surface is the die and the heat flow towards the outside of the package and the substrate can be seen through the temperature coloring:
+
+![templot1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20190347.png
+![templot2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20190425.png)
+![tempplot3](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20190438.png)
 
 
 
