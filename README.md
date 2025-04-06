@@ -9,7 +9,7 @@ There are no exercises prescribed for this module.
 
 ## Module 3 - Labs: Thermal Simulation of Semiconductor Packages with ANSYS
 
-The objective of the lab is to model a FlipChip BGA package and perform a thermal simulation in the Ansys Electronics Desktop (AED) environment. The phases involved are the following:
+The objective of this lab is to model a FlipChip BGA package and perform a thermal simulation in the Ansys Electronics Desktop (AED) environment. The phases involved are the following:
 
 1) Start the Ansys Electronics Desktop Student software
 2) Set up a FlipChip BGA package
@@ -193,7 +193,38 @@ There are no exercises prescribed for this module.
 
 ## Module 5 - Package Design and Modelling: Building a Semiconductor Package from Scratch
 
+The objective of this lab is to build a semiconductor package from scratch. The necessary phases are the following:
 
+1) Create the die and the substrate in AEDT
+2) Add the die attach material and bond pads
+3) Create the wire bond and assign the material
+4) Apply the mold compound and finalize the package
+
+#### 1 Create the die and the substrate in AEDT
+
+We start the AEDT software and click on the Q3D button to start a Q3D Extractor Design:
+
+![aedtstart](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20192100.png)
+![q3destart](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20192111.png)
+
+We define the rectangle of the die with the specified measures ( 3mm x 3mm, 0.2 thickness), change the material to silicon and the substrate to 5 mm x 5 mm, thickness 0.5mm paying attention for it to be below the die and not otherwise.
+
+![ds1]
+
+Section finishes at 194211
+
+#### 2 Add the die attach material and bond pads
+
+Section finishes at 200425
+
+#### 3 Create the wire bond and assign the material
+
+Section finishes at 201451
+
+#### 4 Apply mold compound and finalize the package model
+
+
+   
 
 
 
