@@ -141,6 +141,28 @@ In the dialog that opens we leave the default values for the "General", "Converg
 ![convergence](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20181948.png)
 ![solversettings](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20181958.png)
 
+The "Setup1" analysis can be seen now in the "Analysis" tree element of the Icepak design. 
+
+We can validate the meshing and the analysis by clicking the "Validate" button in the "Simulation" tab:
+
+![validate](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20182456.png)
+
+There is a warning that the object "Flipchip_BGA1_die_underfill" does not have a mesh. We right-click on the element and click on "Assign Mesh Region". 
+![assignmeshregion](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20183018.png)
+
+We leave the default values on the "SubRegion" window:
+
+![asmr2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20183043.png)
+
+In the "General" tab of the "Mesh Region" the box "Enable Mesh Function" needs to be ticked:
+
+![asmmr3](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20183111.png)
+
+The resulting mesh is shown below:
+
+![asmr4](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20183315.png)
+
+
 
 
 
