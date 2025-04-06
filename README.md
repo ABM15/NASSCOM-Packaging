@@ -95,6 +95,10 @@ In the next window we configure "Fixed Temperature" as the type of Thermal Condi
 
 ![thermalsubstrateroute2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20170903.png)
 
+A new boundary condition is added in the "Thermal" group as "Source1":
+
+![newsource1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20171110.png)
+
 
 
 
