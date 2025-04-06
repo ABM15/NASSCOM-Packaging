@@ -12,9 +12,8 @@ There are no exercises prescribed for this module.
 The objective of the lab is to model a FlipChip BGA package and perform a thermal simulation in the Ansys Electronics Desktop (AED) environment. The phases involved are the following:
 
 1) Start the Ansys Electronics Desktop Student software
-2) Create package
-3) Set boundary conditions
-4) Set temperature monitors
+2) Set up a FlipChip BGA package
+3) Thermal definitions and material power sources
 5) Define the mesh
 6) Perform the thermal simulation
 7) Explore results
@@ -72,6 +71,14 @@ After filling the four tabs and clicking OK the model of the FlipChip BGA packag
 ![flipchipsubstrate2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20162047.png)
 ![flipchipdie2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20163140.png)
 ![flipchipdieunderfill](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20163159.png)
+
+The design list can be checked by double-clicking on the "Model" element under the Icepack project 
+
+![designlist](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20164950.png)
+
+#### 3 Thermal Definitions and Material Power Sources
+
+
 
 
 
