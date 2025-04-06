@@ -158,7 +158,7 @@ In the "General" tab of the "Mesh Region" the box "Enable Mesh Function" needs t
 
 ![asmmr3](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20183111.png)
 
-The resulting mesh is shown below:
+The resulting mesh is shown below. The new mesh region "MeshRegion1" is displayed in the Mesh tree element.
 
 ![asmr4](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20183315.png)
 
