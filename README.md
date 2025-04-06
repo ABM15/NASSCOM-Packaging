@@ -286,9 +286,20 @@ Both bond pad rectangles are renamed:
 ![da13](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200355.png)
 ![da14](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200425.png)
 
-
-
 #### 3 Create the wire bond and assign the material
+
+The next step is to create the wire bond between the previously created die and substrate bond pads. For that we click on the 
+
+![wb1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200725.png)
+![wb2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200753.png)
+![wb3](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200806.png)
+![wb4](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200856.png)
+![wb5](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200954.png)
+![wb6](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20201205.png)
+![wb7](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20201258.png)
+![wb8](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20201412.png)
+![wb9](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20201429.png)
+![wb10](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20201451.png)
 
 Section finishes at 201451
 
