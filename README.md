@@ -252,7 +252,24 @@ The resulting geometry now makes sense. The name of the second rectangle needs t
 
 #### 2 Add the die attach material and bond pads
 
-Section finishes at 200425
+The next step is to create the die attach material. However, in the geometry, the substrate and the die are adjacent so far. The substrate position in the vertical axis needs to be lowered by the thickness of the die attach, typically 0.1 mm.
+
+![da1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20194928.png)
+![da2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20194947.png)
+![da3](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20195154.png)
+![da4](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20195353.png)
+![da5](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20195517.png)
+![da6](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20195526.png)
+![da7](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20195716.png)
+![da8](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20195844.png)
+![da9](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20195858.png)
+![da10](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20195957.png)
+![da11](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200052.png)
+![da12](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200148.png)
+![da13](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200355.png)
+![da14](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200425.png)
+
+
 
 #### 3 Create the wire bond and assign the material
 
