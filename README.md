@@ -19,7 +19,7 @@ The objective of the lab is to model a FlipChip BGA package and perform a therma
 6) Perform the thermal simulation
 7) Explore results
 
-#### 1 Start the Ansys Electronics Desktop software
+#### 1 Start the Ansys Electronics Desktop Student software
 
 When starting the Ansys Electronics Desktop software, the main window will display quick access buttons for its different tools (HFSS, Q3D, Circuit, Icepak, Maxwell, Simplorer). The one that will be used in the rest of this lab is Icepak.
 
@@ -28,6 +28,16 @@ When starting the Ansys Electronics Desktop software, the main window will displ
 By clicking the Icepak button, a new Icepak design is created into the project and we navigate into the Icepak environment:
 
 ![icepakstart](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20145003.png)
+
+From the Icepak design the necessary menus for different parts of the flow are accessible, for instance: 3D component definition, model, thermal, monitor, mesh, analysis, results.
+
+#### 2 Set up a FlipChip BGA package
+
+The software has pre-defined models of common package formats to avoid having to create them from scratch. To incorporate a FlipChip BGA into the design, we just need to right click on the Icepak design and follow the route: Toolkit-->Geometry-->Packages-->Flipchip_BGA
+
+![ansysflipchiproute](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20150721.png)
+
+
 
 
 
