@@ -82,10 +82,18 @@ The next step is defining the boundary conditions for the thermal analysis. We c
 
 ![thermalviewinspect](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20165734.png)
 
-The "Thermal" element is not empty: two of the boundary conditions were already specified when adding the FlipChip BGA package model: the die power source and "trace 1". We check that the die power source condition has the correct parameters (1W power):
+The "Thermal" element is not empty: two of the boundary conditions were already specified when adding the FlipChip BGA package model: the die power source and the condition given by the trace thickness. We check that they have the correct parameters (1W power for the die source and 0.033 mm thickness for the trace):
 
 ![thermaldiebc](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20165414.png)
+![themaltrace](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20170201.png)
 
+We still need to add a thermal boundary condition in the substrate. For this, we right-click on the Flipchip_BGA1_substrate element and follow the route "Assign thermal--> source"
+
+![thermalsubstrateroute1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20170510.png)
+
+In the next window we configure "Fixed Temperature" as the type of Thermal Condition and we fix it to AmbientTemp
+
+![thermalsubstrateroute2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20170903.png)
 
 
 
