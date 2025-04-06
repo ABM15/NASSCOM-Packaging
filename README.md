@@ -63,6 +63,16 @@ For thermal simulation purposes the die will be considered as a 2D thermal sourc
 
 ![flipchipdie](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20151821.png)
 
+**Model creation**
+
+After filling the four tabs and clicking OK the model of the FlipChip BGA package is created. Navigating in the model pane we can observe the model (top hierarchy) or inspect every element, for example: ball group, substrate, die, underfill.
+
+![flipchipmodel](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20161743.png)
+![flipchipballgroup](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20161924.png)
+![flipchipsubstrate2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20162047.png)
+![flipchipdie2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20163140.png)
+![flipchipdieunderfill](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20163159.png)
+
 
 
 
