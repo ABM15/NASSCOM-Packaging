@@ -99,6 +99,25 @@ A new boundary condition is added in the "Thermal" group as "Source1":
 
 ![newsource1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20171110.png)
 
+Since there is an overlap warning with the boundary condition "Flipchip_BGA1_trace1" we remove this one and remain with only two of them: "Flipchip_BGA1_die_source" and "Source1"
+
+![thermalremoved](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20171531.png)
+
+The next step is adding the necessary monitors. We will add three point temperature monitors: one in the die, one in the substrate and one in the underfill. The process to add a monitor is right clicking on the corresponding element and then following the route "Assign Monitor --> Point...". In the next window we select "Temperature". The process is shown below for our three point monitors:
+
+![substratemonitor1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20171823.png)
+![substratemonitor2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20171841.png)
+![diemonitor1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20171909.png)
+![diemonitor2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20171932.png)
+![underfillmonitor1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20172039.png)
+![underfillmonitor2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20172050.png)
+
+After adding the three point temperature monitors, they are displayed in the "Monitor" element tree of the Icepak design
+
+![allmonitors](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20172136.png)
+
+
+
 
 
 
