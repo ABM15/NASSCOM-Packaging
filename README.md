@@ -209,9 +209,28 @@ We start the AEDT software and click on the Q3D button to start a Q3D Extractor 
 
 We define the rectangle of the die with the specified measures ( 3mm x 3mm, 0.2 thickness), change the material to silicon and the substrate to 5 mm x 5 mm, thickness 0.5mm paying attention for it to be below the die and not otherwise.
 
-![ds1]
-
-Section finishes at 194211
+![ds1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193040.png)
+![ds2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193113.png)
+![ds3](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193137.png)
+![ds4](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193201.png)
+![ds5](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193234.png)
+![ds6](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193257.png)
+![ds7](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193314.png)
+![ds8](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193328.png)
+![ds9](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193506.png)
+![ds10](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193549.png)
+![ds11](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193601.png)
+![ds12](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193636.png)
+![ds13](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193659.png)
+![ds14](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193750.png)
+![ds15](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193910.png)
+![ds16](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193929.png)
+![ds17](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20194042.png)
+![ds18](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20194107.png)
+![ds19](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20194157.png)
+![ds20](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20194211.png)
+![ds21](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20194755.png)
+![ds22](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20194807.png)
 
 #### 2 Add the die attach material and bond pads
 
