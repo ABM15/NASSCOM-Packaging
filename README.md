@@ -78,6 +78,16 @@ The design list can be checked by double-clicking on the "Model" element under t
 
 #### 3 Thermal Definitions and Material Power Sources
 
+The next step is defining the boundary conditions for the thermal analysis. We can inspect them under the "Thermal" element of the Icepak project structure.
+
+![thermalviewinspect](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20165734.png)
+
+The "Thermal" element is not empty: two of the boundary conditions were already specified when adding the FlipChip BGA package model: the die power source and "trace 1". We check that the die power source condition has the correct parameters (1W power):
+
+![thermaldiebc](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20165414.png)
+
+
+
 
 
 
