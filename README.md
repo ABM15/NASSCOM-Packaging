@@ -288,20 +288,33 @@ Both bond pad rectangles are renamed:
 
 #### 3 Create the wire bond and assign the material
 
-The next step is to create the wire bond between the previously created die and substrate bond pads. For that we click on the 
+The next step is to create the wire bond between the previously created die and substrate bond pads. For that we click on the "Draw Bondwire" button at the "Draw" tab.
 
 ![wb1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200725.png)
+
+We trace a line connecting both bond pads:
+
 ![wb2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200753.png)
+
+A Bondwire dialog window appears. We accept the defaults for the JEDEC4 norm.
+
 ![wb3](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200806.png)
+
+The bond wire is created:
+
 ![wb4](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200856.png)
 ![wb5](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20200954.png)
+
+To illustrate better the real layout we define a second die bond pad of the same dimensions (0.2mm x 0.2mm), 0.5mm into the X axis:
+
 ![wb6](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20201205.png)
 ![wb7](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20201258.png)
+
+Finally we change the material of the bond wire from "copper" to "gold":
+
 ![wb8](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20201412.png)
 ![wb9](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20201429.png)
 ![wb10](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20201451.png)
-
-Section finishes at 201451
 
 #### 4 Apply mold compound and finalize the package model
 
