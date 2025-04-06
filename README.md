@@ -207,28 +207,46 @@ We start the AEDT software and click on the Q3D button to start a Q3D Extractor 
 ![aedtstart](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20192100.png)
 ![q3destart](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20192111.png)
 
-We define the rectangle of the die with the specified measures ( 3mm x 3mm, 0.2 thickness), change the material to silicon and the substrate to 5 mm x 5 mm, thickness 0.5mm paying attention for it to be below the die and not otherwise.
+The first step is defining the rectangle of the die with the specified dimensions ( 3mm x 3mm, 0.2 thickness). The easiest way is to graphically draw a rectangle and adjust the position values in the Parameters option of the contextual menu.
 
 ![ds1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193040.png)
 ![ds2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193113.png)
 ![ds3](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193137.png)
 ![ds4](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193201.png)
+
+To add the thickness information to the model, the rectangle needs to be selected and we follow the route Modeler-->Surface--> Thicken Sheet...". In the opening window we enter 0.2 mm.
+
 ![ds5](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193234.png)
 ![ds6](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193257.png)
 ![ds7](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193314.png)
 ![ds8](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193328.png)
+
+The material needs to be changed to "silicon" and the name of the rectangle to "Die":
+
 ![ds9](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193506.png)
 ![ds10](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193549.png)
 ![ds11](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193601.png)
 ![ds12](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193636.png)
 ![ds13](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193659.png)
+
+The following step is defining the substrate in the specified dimensions (5 mm x 5 mm, 0.5mm thickness). The easiest way is to draw a new rectangle that encompasses the die footprint and adjust the position values in the Parameters option of the contextual menu. 
+
 ![ds14](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193750.png)
 ![ds15](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193910.png)
 ![ds16](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20193929.png)
+
+The thickness is added into the model using again the "Modeler-->Surface--> Thicken Sheet.." route after selecting the new rectangle
+
 ![ds17](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20194042.png)
 ![ds18](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20194107.png)
+
+In the resulting geometry the substrate totally encloses the die. Since this does not make sense, since the substrate needs to be at a lower height than the die and not otherwise. A way to correct this is specifying a negative thickness of the same value:
+
 ![ds19](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20194157.png)
 ![ds20](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20194211.png)
+
+The resulting geometry now makes sense. The name of the second rectangle needs to be changed to "Substrate" and the material to "FR4_epoxy":
+
 ![ds21](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20194755.png)
 ![ds22](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20194807.png)
 
