@@ -112,10 +112,34 @@ The next step is adding the necessary monitors. We will add three point temperat
 ![underfillmonitor1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20172039.png)
 ![underfillmonitor2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20172050.png)
 
-After adding the three point temperature monitors, they are displayed in the "Monitor" element tree of the Icepak design
+After adding the three point temperature monitors, they are displayed in the "Monitor" element tree of the Icepak design.
 
 ![allmonitors](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20172136.png)
 
+#### 4 Meshing and Running the Thermal Analysis
+
+The next step is generating the mesh. This can be done by clicking the "Generate Mesh" button of the "Simulation" tab as shown below:
+
+![generatemesh](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20180240.png)
+
+After finishing the generation the mesh can be visualized and a window opens, allowing us to observe the Mesh Display and Quality tabs:
+
+![aftermesh1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20180323.png)
+
+The Quality tab allows to observe the "Face aligment" and "Skewness" metrics of the meshing:
+
+![aftermesh2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20180353.png)
+![aftermesh3](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20180413.png)
+
+The next step is to set up the analysis. For this, we right-click on the "Analysis" Tree Element of the Icepak design and click on "Add Solution Setup..."
+
+![addsolsetup](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20181741.png)
+
+In the dialog that opens we leave the default values for the "General", "Convergence" and "Solver Setting" tabs.
+
+![general](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20181936.png)
+![convergence](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20181948.png)
+![solversettings](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20181958.png)
 
 
 
