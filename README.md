@@ -187,6 +187,12 @@ We can now see the temperature plot. As expected the hottest surface is the die 
 ![templot2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20190425.png)
 ![tempplot3](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20190438.png)
 
+## Module 4 - Ensuring Package Reliability: Testing and Performance Validation
+
+There are no exercises prescribed for this module.
+
+## Module 5 - Package Design and Modelling: Building a Semiconductor Package from Scratch
+
 
 
 
