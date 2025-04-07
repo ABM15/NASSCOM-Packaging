@@ -318,6 +318,17 @@ Finally we change the material of the bond wire from "copper" to "gold":
 
 #### 4 Apply mold compound and finalize the package model
 
+The last step is to create the mold compound as the outermost component of the package in the Z axis.
+
+![mc1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20201914.png)
+![mc2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20202002.png)
+![mc3](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20202039.png)
+![mc4](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20202107.png)
+![mc5](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20202258.png)
+![mc6](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20202332.png)
+![mc7](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20202349.png)
+![mc8](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20202805.png)
+
 
    
 
