@@ -318,13 +318,22 @@ Finally we change the material of the bond wire from "copper" to "gold":
 
 #### 4 Apply mold compound and finalize the package model
 
-The last step is to create the mold compound as the outermost component of the package in the Z axis.
+The last step is to create the mold compound as the outermost component of the package, sitting on top of the substrate. We define a new rectangle of the same dimensions of the substrate (5mm x 5mm) and starting at Z=-0.1mm , with a thickness of 1.2 mm, which is enough to enclose the die attach, the die, and the wire bond, protecting the package.
 
 ![mc1](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20201914.png)
 ![mc2](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20202002.png)
 ![mc3](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20202039.png)
+
+We observe the resulting geometry:
+
 ![mc4](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20202107.png)
+
+The name of the new rectangle needs to be changed to "MoldCompound" and the material to "epoxy_Kevlar_xy"
+
 ![mc5](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20202258.png)
+
+Selecting an internal component, for example, the die bond pad, we can inspect the final geometry in 3D:
+
 ![mc6](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20202332.png)
 ![mc7](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20202349.png)
 ![mc8](https://github.com/ABM15/NASSCOM-Packaging/blob/main/Screenshot%202025-04-06%20202805.png)
